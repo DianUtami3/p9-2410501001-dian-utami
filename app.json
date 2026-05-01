@@ -3,27 +3,29 @@
     "name": "auth-praktikum",
     "slug": "auth-praktikum",
     "version": "1.0.0",
+    "scheme": "authpraktikum",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dianutami.authpraktikum",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "plugins": [
+      "expo-secure-store",
+      "expo-web-browser",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.829652266393-7fodrkmnen992pg7a2nknq9k7vb6ie6n"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8d494e58-c72c-474b-bdc9-f73470e80d38"
+      }
     }
   }
 }
