@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Auth Praktikum - Pertemuan 9
 
 Aplikasi ini dibuat untuk praktikum Authentication dan Authorization menggunakan React Native Expo dan Firebase.
@@ -95,7 +94,7 @@ Menggunakan:
 
 ## Fitur yang dapat diuji:
 -Link video demo:
-
+Youtube https://youtu.be/YWdSrpfkPIs?feature=shared, Gdrive https://drive.google.com/file/d/1ytKxsNoAtAJaOAAvNJQHxN4LOsNJy7uw/view?usp=drivesdk 
 - Register → verifikasi email → login  
 - Login biometric (Face ID / fingerprint)  
 - Reset password  
@@ -111,7 +110,4 @@ Aplikasi ini berhasil mengimplementasikan konsep:
 - Authentication menggunakan Firebase  
 - Authorization menggunakan role-based system  
 - Security enhancement dengan biometric dan auto logout  
-- Token management menggunakan backend  
-=======
-# p9-2410501001-dian-utami
->>>>>>> 56c7c29195f22532965cd5fdd6d69baf4ca961c2
+- Token management menggunakan backend
