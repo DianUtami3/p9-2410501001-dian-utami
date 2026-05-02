@@ -1,4 +1,4 @@
-# Auth Praktikum - Pertemuan 9
+# Dian Utami 2410501001 - Pertemuan 9
 
 Aplikasi ini dibuat untuk praktikum Authentication dan Authorization menggunakan React Native Expo dan Firebase.
 
