@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auth Praktikum - Pertemuan 9
 
 Aplikasi ini dibuat untuk praktikum Authentication dan Authorization menggunakan React Native Expo dan Firebase.
@@ -111,3 +112,6 @@ Aplikasi ini berhasil mengimplementasikan konsep:
 - Authorization menggunakan role-based system  
 - Security enhancement dengan biometric dan auto logout  
 - Token management menggunakan backend  
+=======
+# p9-2410501001-dian-utami
+>>>>>>> 56c7c29195f22532965cd5fdd6d69baf4ca961c2
